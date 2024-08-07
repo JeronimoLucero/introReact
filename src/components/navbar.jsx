@@ -25,12 +25,12 @@ export default function navbar() {
                         <FontAwesomeIcon icon={faPizzaSlice} /> Home
                     </Button>
                     <Button variant="outline-light" className='me-1'>
-                        <FontAwesomeIcon icon={Token ? faLock : faLockOpen} />
-                        {Token ? " Login" : " Profile"}
+                        <FontAwesomeIcon icon={Token ? faLockOpen : faLock} />
+                        {Token ? " logout" : " login"}
                     </Button>
                     <Button variant="outline-light" className='me-1'>
-                        <FontAwesomeIcon icon={Token ? faLock : faLockOpen} />
-                        {Token ? " Register" : " Logout"}
+                        <FontAwesomeIcon icon={Token ? faLockOpen : faLock} />
+                        {Token ? " profile" : " register"}
                     </Button>
 
 
