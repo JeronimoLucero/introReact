@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Navbarpizzeria from './components/navbar.jsx'
 import Home from './components/home.jsx'
 import Footer from './components/footer.jsx'
+import Registerpage from './components/registerpage.jsx'
+import LoginPage from './components/loginpage.jsx'
 import './App.css'
 
 function App() {
@@ -15,7 +17,17 @@ function App() {
 
       
 
-      <Home></Home>
+      {/* <Home></Home>
+
+      <Registerpage></Registerpage> */}
+
+      <LoginPage></LoginPage>
+
+      
+
+      
+
+
 
       <Footer></Footer>
 
